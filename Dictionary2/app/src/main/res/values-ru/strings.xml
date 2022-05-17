@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Dictionary</string>
+    <string name="no_save">Введите слово</string>
+    <string name="back">back</string>
+    <string name="russian">Russian</string>
+    <string name="english">english</string>
+    <string name="russian_button">russian</string>
+    <string name="choose_a_design_for_your_mood">Выберите дизайн под Ваше настроение!</string>
+    <string name="elegant_grey">Свежий зеленый</string>
+    <string name="sky_blue">Небесно-голубой</string>
+    <string name="tender_pink">Нежный розовый</string>
+</resources>

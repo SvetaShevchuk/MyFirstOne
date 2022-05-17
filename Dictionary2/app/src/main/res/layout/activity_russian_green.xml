@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light"
+    tools:context="com.myDictionaryForLearning.dictionary.green.RussianActivityGreen">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_view_russian_green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_layout_russian_green"
+        android:layout_margin="3dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_russian_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/button_russian_back_green"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="@color/grey"/>
+
+        <Button
+            android:id="@+id/button_russian_green"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/grey"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Dictionary</string>
+    <string name="no_save">No word to save</string>
+    <string name="back">back</string>
+    <string name="russian">English</string>
+    <string name="english">French</string>
+    <string name="russian_button">English</string>
+    <string name="choose_a_design_for_your_mood">Choose a design for your mood</string>
+    <string name="elegant_grey">Fresh green</string>
+    <string name="sky_blue">Sky blue</string>
+    <string name="tender_pink">Tender pink</string>
+</resources>
