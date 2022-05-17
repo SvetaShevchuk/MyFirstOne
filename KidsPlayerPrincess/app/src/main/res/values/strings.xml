@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kid\'s Player Princess</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="file_name">File name</string>
+    <string name="_2_28">2_28</string>
+    <string name="this_is_song_name">This_is_song_name</string>
+    <string name="this_is_artist_name">This is artist name</string>
+    <string name="now_playing">Now playing</string>
+    <string name="album">album</string>
+    <string name="song_name">Song name</string>
+    <string name="artist_name">Artist name</string>
+    <string name="create_a_new_playlist">Create a new playlist</string>
+    <string name="app_name_super_man">Super Man\'s player</string>
+    <string name="this_is_the_advertising_block">This is the advertising block</string>
+    <string name="music_files_of_the_music_player">music files of the music player</string>
+    <string name="this_is_the_music_files">This is the music files</string>
+    <string name="this_is_play_pause_button">This is play/pause button</string>
+    <string name="this_is_skip_to_previous_song_button">This is skip to previous song button</string>
+    <string name="this_is_skip_to_next_song_button">This is skip to next song button</string>
+</resources>
