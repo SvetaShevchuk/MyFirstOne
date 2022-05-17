@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noteinapocket.noteinapocket">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoteInAPocket">
+
+
+
+<!--        <meta-data android:name="applovin.sdk.key"-->
+<!--            android:value="CeO9OczwnS1T1rTUU9K5qTC0HnIXZfHa8klQZ5IICJJ5pTqJGeRXh-xIcHgTZXW9Mo4o4I4tRIbrVWHA6MDT5_"/>-->
+
+        <activity
+            android:name=".NoteActivityGrey"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen"/>
+        <activity
+            android:name=".EditActivityGrey"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".MainActivityGrey"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".NoteActivityYellow"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".EditActivityYellow"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".MainActivityYellow"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".NoteActivityRed"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".EditActivityRed"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".MainActivityRed"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NoteInAPocketFullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoteActivityBlue"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".MainActivityBlue"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".EditActivityBlue"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".NoteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NoteInAPocketFullScreen" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NoteInAPocketFullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

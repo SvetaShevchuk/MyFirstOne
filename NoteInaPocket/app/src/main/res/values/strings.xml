@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Note In a Pocket</string>
+    <string name="create_a_new_note">Create a new note</string>
+    <string name="create">create</string>
+    <string name="delete">delete</string>
+    <string name="no_text_to_save">No text to save</string>
+    <string name="note_is_saved">Note is saved</string>
+    <string name="no_save">No text to save</string>
+    <string name="choose_a_design_for_your_mood">Choose a design for your mood!!</string>
+    <string name="tender_light_green">Tender light green</string>
+    <string name="sweet_sky_blue">Sweet sky blue</string>
+    <string name="passionate_deep_red">Passionate deep red</string>
+    <string name="hot_sunny_yellow">Hot sunny yellow</string>
+    <string name="elegant_laconic_grey">Elegant laconic grey</string>
+    <string name="this_is_the_advertising_block">this_is_the_advertising_block</string>
+</resources>

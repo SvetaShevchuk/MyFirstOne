@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Note In a Pocket</string>
+    <string name="create_a_new_note">Создать новую заметку</string>
+    <string name="create">создать</string>
+    <string name="delete">удалить</string>
+    <string name="no_text_to_save">Нет информации для сохранения</string>
+    <string name="note_is_saved">Заметка сохранена</string>
+    <string name="no_save">Нет информации для сохранения</string>
+    <string name="choose_a_design_for_your_mood">Выберите дизайн под Ваше настроение!!</string>
+    <string name="tender_light_green">Нежный светло-зелёный</string>
+    <string name="sweet_sky_blue">Небесно-голубой</string>
+    <string name="passionate_deep_red">Глубокий красный</string>
+    <string name="hot_sunny_yellow">Солнечный жёлтый</string>
+    <string name="elegant_laconic_grey">Элегантный серый</string>
+    <string name="this_is_the_advertising_block">Это рекламный баннер</string>
+</resources>

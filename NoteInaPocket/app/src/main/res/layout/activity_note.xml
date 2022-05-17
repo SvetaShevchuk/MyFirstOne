@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green_deep"
+    tools:context=".NoteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:background="@color/green_light"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/tv_text_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/button_save_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/green_deep"
+            android:text="save" />
+
+    </LinearLayout>
+
+</LinearLayout>
